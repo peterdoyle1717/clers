@@ -145,3 +145,7 @@ This repository is intentionally small and transparent. It is not trying to be a
 ## Keywords
 
 CBEAD, CLERS, Edgebreaker, corner table, triangulation, sphere triangulation, canonical naming, canonical labeling, graph encoding, polyhedra.
+
+## Provenance
+
+The code and documentation in this repository were drafted primarily with Claude Code under the author's direction, with additional advice, review, and supervision from ChatGPT.
