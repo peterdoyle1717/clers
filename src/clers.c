@@ -16,7 +16,12 @@
 #include <stdlib.h>
 #include <stdint.h>
 
-#define MAXV    400
+#ifndef MAXV
+#define MAXV    400      /* Override at compile time (-DMAXV=2000) when
+                            face lists exceed 400 vertices, e.g. for
+                            high-frequency geodesic subdivisions of the
+                            regular polyhedra. */
+#endif
 #define MAXF    (2*MAXV + 4)
 #define MAXLINE (MAXF * 12 + 4)
 #define MAXCODE (4*MAXV + 8)
