@@ -1,2 +1,4 @@
 .session/
 clers
+.DS_Store
+__pycache__/
