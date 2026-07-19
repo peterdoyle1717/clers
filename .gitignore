@@ -2,3 +2,4 @@
 clers
 .DS_Store
 __pycache__/
+.claude/
